@@ -1,0 +1,13 @@
+name: Docs
+
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+
+jobs:
+  build_doc:
+    name: 'Docs'
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hi from main"
