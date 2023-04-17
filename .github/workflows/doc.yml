@@ -10,4 +10,4 @@ jobs:
     name: 'Docs'
     runs-on: ubuntu-latest
     steps:
-    - run: echo "hi from main"
+    - run: echo "hi from 3.11"
